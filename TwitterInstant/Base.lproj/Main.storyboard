@@ -53,7 +53,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ugN-2z-pt1"/>
                     <connections>
-                        <outlet property="searchText" destination="Fy1-H4-zGx" id="6yB-QH-xny"/>
+                        <outlet property="searchTextField" destination="Fy1-H4-zGx" id="6yB-QH-xny"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a6H-DD-In3" userLabel="First Responder" sceneMemberID="firstResponder"/>

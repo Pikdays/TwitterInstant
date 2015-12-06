@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface RWTableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *twitterAvatarView;
-@property (weak, nonatomic) IBOutlet UILabel *twitterStatusText;
-@property (weak, nonatomic) IBOutlet UILabel *twitterUsernameText;
+
+@property(weak, nonatomic) IBOutlet UIImageView *twitterAvatarView;
+@property(weak, nonatomic) IBOutlet UILabel *twitterStatusText;
+@property(weak, nonatomic) IBOutlet UILabel *twitterUsernameText;
+
 @end

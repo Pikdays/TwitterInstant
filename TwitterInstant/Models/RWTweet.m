@@ -11,13 +11,13 @@
 @implementation RWTweet
 
 + (instancetype)tweetWithStatus:(NSDictionary *)status {
-  RWTweet *tweet = [RWTweet new];
-  tweet.status = status[@"text"];
-  
-  NSDictionary *user = status[@"user"];
-  tweet.profileImageUrl = user[@"profile_image_url"];
-  tweet.username = user[@"screen_name"];
-  return tweet;
+    RWTweet *tweet = [RWTweet new];
+    tweet.status = status[@"text"];
+
+    NSDictionary *user = status[@"user"];
+    tweet.profileImageUrl = user[@"profile_image_url"];
+    tweet.username = user[@"screen_name"];
+    return tweet;
 }
 
 @end

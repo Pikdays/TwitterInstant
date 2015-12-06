@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4132222AB3CFFD7A288FCC89 /* RWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41322FA3FF667CDB95CE2D75 /* RWTableViewCell.m */; };
+		413222A629768D0B001C8028 /* RWSearchFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41322D5FB4C62B385681DC7B /* RWSearchFormViewController.m */; };
+		41322BC260ABB3F25671C80C /* RWTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 413228D1641644239F275430 /* RWTweet.m */; };
+		41322C53243890246A6870FB /* RWSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413228FA4E51BB6B99DF5784 /* RWSearchResultsViewController.m */; };
 		721C0011184D33AC0026A576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721C0010184D33AC0026A576 /* Foundation.framework */; };
 		721C0013184D33AC0026A576 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721C0012184D33AC0026A576 /* CoreGraphics.framework */; };
 		721C0015184D33AC0026A576 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721C0014184D33AC0026A576 /* UIKit.framework */; };
@@ -15,17 +19,21 @@
 		721C0021184D33AC0026A576 /* RWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 721C0020184D33AC0026A576 /* RWAppDelegate.m */; };
 		721C0024184D33AC0026A576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721C0022184D33AC0026A576 /* Main.storyboard */; };
 		721C0029184D33AC0026A576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721C0028184D33AC0026A576 /* Images.xcassets */; };
-		721C0047184D35E50026A576 /* RWSearchFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721C0046184D35E50026A576 /* RWSearchFormViewController.m */; };
-		721C004A184DB32F0026A576 /* RWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 721C0049184DB32F0026A576 /* RWTableViewCell.m */; };
-		721C004D184DB3950026A576 /* RWSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721C004C184DB3950026A576 /* RWSearchResultsViewController.m */; };
 		721C004F184E43B50026A576 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721C004E184E43B50026A576 /* Accounts.framework */; };
 		721C0051184E43BB0026A576 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721C0050184E43BB0026A576 /* Social.framework */; };
-		72DE67B41879E0C800356D9E /* RWTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DE67B31879E0C800356D9E /* RWTweet.m */; };
 		72DE67BB1880522600356D9E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72DE67BA1880522600356D9E /* background.jpg */; };
 		C79DBD27226D4750BA4040AE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA6E72F06BA458D8FE73D12 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4132214881A9A2B9655B45DA /* RWSearchFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchFormViewController.h; sourceTree = "<group>"; };
+		413224C90924AF96A3250024 /* RWSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchResultsViewController.h; sourceTree = "<group>"; };
+		4132284ABE8B37E0CD46F578 /* RWTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTweet.h; sourceTree = "<group>"; };
+		413228D1641644239F275430 /* RWTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTweet.m; sourceTree = "<group>"; };
+		413228FA4E51BB6B99DF5784 /* RWSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchResultsViewController.m; sourceTree = "<group>"; };
+		41322A8396BBDC088FB27D54 /* RWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTableViewCell.h; sourceTree = "<group>"; };
+		41322D5FB4C62B385681DC7B /* RWSearchFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchFormViewController.m; sourceTree = "<group>"; };
+		41322FA3FF667CDB95CE2D75 /* RWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTableViewCell.m; sourceTree = "<group>"; };
 		6E4B0EF56D8718F8D68A9A01 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		721C000D184D33AC0026A576 /* TwitterInstant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterInstant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		721C0010184D33AC0026A576 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,16 +48,8 @@
 		721C0023184D33AC0026A576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		721C0028184D33AC0026A576 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		721C002F184D33AC0026A576 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		721C0045184D35E50026A576 /* RWSearchFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchFormViewController.h; sourceTree = "<group>"; };
-		721C0046184D35E50026A576 /* RWSearchFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchFormViewController.m; sourceTree = "<group>"; };
-		721C0048184DB32F0026A576 /* RWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTableViewCell.h; sourceTree = "<group>"; };
-		721C0049184DB32F0026A576 /* RWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTableViewCell.m; sourceTree = "<group>"; };
-		721C004B184DB3950026A576 /* RWSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchResultsViewController.h; sourceTree = "<group>"; };
-		721C004C184DB3950026A576 /* RWSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchResultsViewController.m; sourceTree = "<group>"; };
 		721C004E184E43B50026A576 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		721C0050184E43BB0026A576 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		72DE67B21879E0C800356D9E /* RWTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTweet.h; sourceTree = "<group>"; };
-		72DE67B31879E0C800356D9E /* RWTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTweet.m; sourceTree = "<group>"; };
 		72DE67BA1880522600356D9E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		809256F729620D71215FBE56 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9CA6E72F06BA458D8FE73D12 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +72,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41322475A394C3D149AFC8ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4132214881A9A2B9655B45DA /* RWSearchFormViewController.h */,
+				41322D5FB4C62B385681DC7B /* RWSearchFormViewController.m */,
+				413224C90924AF96A3250024 /* RWSearchResultsViewController.h */,
+				413228FA4E51BB6B99DF5784 /* RWSearchResultsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4132285215F77CB522C59006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4132284ABE8B37E0CD46F578 /* RWTweet.h */,
+				413228D1641644239F275430 /* RWTweet.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41322AA7BF6623112EEEE597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41322A8396BBDC088FB27D54 /* RWTableViewCell.h */,
+				41322FA3FF667CDB95CE2D75 /* RWTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		721C0004184D33AC0026A576 = {
 			isa = PBXGroup;
 			children = (
@@ -113,14 +142,9 @@
 				721C0022184D33AC0026A576 /* Main.storyboard */,
 				721C0028184D33AC0026A576 /* Images.xcassets */,
 				721C0017184D33AC0026A576 /* Supporting Files */,
-				721C0045184D35E50026A576 /* RWSearchFormViewController.h */,
-				721C0046184D35E50026A576 /* RWSearchFormViewController.m */,
-				721C0048184DB32F0026A576 /* RWTableViewCell.h */,
-				721C0049184DB32F0026A576 /* RWTableViewCell.m */,
-				721C004B184DB3950026A576 /* RWSearchResultsViewController.h */,
-				721C004C184DB3950026A576 /* RWSearchResultsViewController.m */,
-				72DE67B21879E0C800356D9E /* RWTweet.h */,
-				72DE67B31879E0C800356D9E /* RWTweet.m */,
+				4132285215F77CB522C59006 /* Models */,
+				41322AA7BF6623112EEEE597 /* Views */,
+				41322475A394C3D149AFC8ED /* Controllers */,
 			);
 			path = TwitterInstant;
 			sourceTree = "<group>";
@@ -264,11 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				721C001D184D33AC0026A576 /* main.m in Sources */,
-				721C0047184D35E50026A576 /* RWSearchFormViewController.m in Sources */,
-				72DE67B41879E0C800356D9E /* RWTweet.m in Sources */,
 				721C0021184D33AC0026A576 /* RWAppDelegate.m in Sources */,
-				721C004D184DB3950026A576 /* RWSearchResultsViewController.m in Sources */,
-				721C004A184DB32F0026A576 /* RWTableViewCell.m in Sources */,
+				41322BC260ABB3F25671C80C /* RWTweet.m in Sources */,
+				4132222AB3CFFD7A288FCC89 /* RWTableViewCell.m in Sources */,
+				413222A629768D0B001C8028 /* RWSearchFormViewController.m in Sources */,
+				41322C53243890246A6870FB /* RWSearchResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +403,7 @@
 				GCC_PREFIX_HEADER = "TwitterInstant/TwitterInstant-Prefix.pch";
 				INFOPLIST_FILE = "TwitterInstant/TwitterInstant-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,6 +419,7 @@
 				GCC_PREFIX_HEADER = "TwitterInstant/TwitterInstant-Prefix.pch";
 				INFOPLIST_FILE = "TwitterInstant/TwitterInstant-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
