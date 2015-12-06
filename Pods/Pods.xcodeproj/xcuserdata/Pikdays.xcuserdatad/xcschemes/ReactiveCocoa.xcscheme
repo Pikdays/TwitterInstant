@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '072BE4EF1023CF81D30AB686'
-               BlueprintName = 'ReactiveCocoa'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libReactiveCocoa.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "03A603CF06DA452FA36BF3B11848F787"
+               BlueprintName = "ReactiveCocoa"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libReactiveCocoa.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -3,6 +3,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/LinqToObjectiveC/NSArray+LinqExtensions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/LinqToObjectiveC/NSArray+LinqExtensions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/LinqToObjectiveC/NSDictionary+LinqExtensions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/LinqToObjectiveC/NSDictionary+LinqExtensions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACEXTKeyPathCoding.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACEXTRuntimeExtensions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACEXTRuntimeExtensions.m" isTestSource="false" />
@@ -180,6 +184,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextView+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/LinqToObjectiveC/LinqToObjectiveC-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/LinqToObjectiveC/LinqToObjectiveC-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/LinqToObjectiveC/LinqToObjectiveC.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-dummy.m" isTestSource="false" />
